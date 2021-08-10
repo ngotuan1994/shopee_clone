@@ -1,0 +1,102 @@
+
+.header{
+    height: 120px;
+    max-width: 100%;
+    width:100%;
+    background: linear-gradient(0, #fe6433, #f53e2d);
+    
+}
+
+
+.header__navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 20px;
+    
+}
+
+.header__navbar-list{
+    list-style: none;
+    padding-left: 0;
+    
+}
+
+.header__navbar-list.navbar-left{
+    display: flex;
+    flex-direction: row;
+    
+}
+.header__navbar-list.navbar-left li{
+    
+} 
+
+.header__navbar-list.navbar-right{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.header__navbar-item,
+.header__navbar-item-link{
+    display:inline-block;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--white-color);
+    font-weight: 300;
+}
+
+.header__navbar-item{
+    margin: 0 10px;
+    position: relative;
+}
+.header__navbar-item-link--strong{
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 3px;
+}
+.separate{
+    width: 0.5px;
+    height:1.6rem;
+    background: var(--white-color);
+    
+}
+
+
+.header__navbar-item:hover,
+.header__navbar-item-link:hover{
+    opacity:0.8;
+    cursor:pointer;
+}
+.header__navbar ul li i {
+    font-size: 1.8rem;
+    margin-left: 8px;
+}
+.header__navbar-item-qr:hover  .header__qr{
+    display: block;
+     
+}
+
+/*  HEADER QR */
+
+.header__qr{
+    width: 130px;
+    background-color: white;
+    position: absolute;
+    left:0;
+    top: 100%;
+    border-radius: 5px;
+    display: none;
+    animation: fadeIn ease 0.7s;
+}
+.header_qr-apps{
+    display: flex;
+    justify-content: space-between;
+}
+.header__qr-phone {
+    height: 20px;
+    margin-left: 12px;
+    
+}
+
