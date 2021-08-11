@@ -119,9 +119,30 @@ border: solid 1px #d3d3d3;
 display:none;
 transform-origin: 90% 0%;
 animation: notify_animation ease-in 0.3s;
+margin-top: 1rem;
+
 }
+.header__notify::before{
+    content:"";
+    border: 10px solid;
+    border-color: transparent transparent white transparent;
+    position: absolute;
+    right: 1rem;
+    top: -1.8rem
 
-
+}
+.header__notify::after{
+    content: "";
+    display:block;
+    position: absolute;
+    right:0;
+    top: -2rem;
+    max-width: 90px;
+    max-height: 2rem;
+    width: 9rem;
+    height: 2rem;;
+    background-color: transparent;
+}
 .header__notify-header{
 text-align: center;
 height: 40px;
