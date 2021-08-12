@@ -31,6 +31,33 @@ html {
     flex-wrap: wrap;
 }
 
+.modal{
+    position: fixed;
+    top:0%;
+    right: 0%;
+    bottom: 0%;
+    left:0%;
+    display: flex;
+    justify-content: center;
+}
+.modal__overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+}
+.modal__container{
+    max-width: 50%;
+    width: 500px;
+    max-height: 60%;
+    
+    background: var(--white-color);
+    align-self: center;
+    z-index: 1;
+    border-radius: 2rem;
+}
+
+
 
 @keyframes fadeIn{
     from {

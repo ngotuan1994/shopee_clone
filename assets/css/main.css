@@ -220,6 +220,129 @@ height: 100%;
     display:block;
 }
 
+.userForm{
+    display:flex;
+    flex-direction: column;
+}
+
+.userForm__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userForm__heading{
+    padding: 2rem 5%;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.userForm__switch-btn{
+    padding: 2rem 5%;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #f53e2d
+}
+
+.userForm__group{
+    display:flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.userForm__input{
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 5%;
+    font-size: 1.6rem;
+    border-radius: 0.3rem;
+    border: solid 1px #d3d3d3;
+}
+
+
+
+.userForm__policy{
+    text-align: center;
+    max-height: 25%;
+    height: 8rem;
+    font-size: 1.2rem;
+    margin: 1rem 5%;
+}
+
+.userForm__botom-btn{
+    
+    align-self: flex-end;
+}
+
+.userForm-back{
+    padding: 0.5rem 3rem;
+    border: none 1px;
+    background-color: white;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.userForm-register{
+    padding: 0.5rem 3rem;
+    color: white;
+    background-color: #fe6433;
+    border: solid 1px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-right: 2rem;
+}
+
+.userForm__footer{
+    display:flex;
+    justify-content: space-around;
+    
+
+    
+    
+}
+
+.userForm__footer-facebook{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 5%;
+    margin-right: 0.5rem;
+    background-color: rgba(56, 70, 197, 0.658);
+    color: white;
+}
+.userForm__footer-facebook > i{
+    font-size: 2rem;
+}
+.userForm__footer-google{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 5%;
+    margin-right: 0.5rem;
+    
+}
+.userForm__footer-google > i{
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
 
 
 
