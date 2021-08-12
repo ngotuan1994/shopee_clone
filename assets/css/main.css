@@ -295,6 +295,11 @@ height: 100%;
 .userForm__footer{
     display:flex;
     justify-content: space-around;
+    background-color: #d3d3d33b;
+    margin-top: 3rem;
+    
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
     
 
     

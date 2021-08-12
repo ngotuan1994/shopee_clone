@@ -47,10 +47,9 @@ html {
     background: rgba(0,0,0,0.4);
 }
 .modal__container{
-    max-width: 50%;
+    max-width: 80%;
     width: 500px;
     max-height: 60%;
-    
     background: var(--white-color);
     align-self: center;
     z-index: 1;
